@@ -82,4 +82,8 @@ public class Gamemanager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
